@@ -20,5 +20,17 @@
                 }
             }
         }
+        .arrow{
+            .left-arrow:hover{
+                background-color: rgba(0, 0, 0, 0.333);
+            }
+            .right-arrow:hover{
+                background-color: rgba(0, 0, 0, 0.333);
+            }
+        }
+        .arrow>*{
+            // border: 1px solid #c71212;
+            transition: 0.3s ease;
+        }
     }
 }
